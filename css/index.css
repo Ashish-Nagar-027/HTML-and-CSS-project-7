@@ -1,0 +1,190 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* 
+====================
+   variables
+====================
+*/
+:root {
+    --ff-primary: 'Fredoka One', cursive;
+    --clr-primary : #FE5E35;
+}
+
+
+/* 
+====================
+   NavBar
+====================
+*/
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 3rem;
+    /* background-color: brown;   */
+}
+
+.nav-items {
+    display: flex;
+}
+
+.nav-item {
+    margin: 0 2rem;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+/* 
+======================
+    Intro Section
+======================
+ */
+.intro-section {
+    display: flex;
+    margin-bottom: 10rem;
+}
+.left-section {
+    flex: 1;
+    padding: 2rem;
+}
+.right-section {
+    flex: 1;
+    position: relative;
+}
+
+/* 
+======================
+    left Section
+======================
+ */
+h1 {
+    font-size: 4rem;
+    font-family:var(--ff-primary) ;
+    margin: 1rem 0 3rem 0;
+}
+
+h3 {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.left-section h3 img {
+    width: 3rem;
+    margin-left: 1rem;
+}
+
+h5 {
+    font-size: 1.5rem;
+    margin: 1rem 5rem;
+}
+
+h5 img{
+    background-color: var(--clr-primary) ;
+    border-radius: 50%;
+}
+
+.text {
+    margin: 2rem 1rem;
+    font-size: 0.8rem;
+}
+
+.nav-item {
+    font-family: 'Poppins';
+}
+.nav-item:hover {
+    color: #FE5E35;
+}
+
+button {
+    color: white;
+    background: var(--clr-primary);
+    padding: 0.8rem 1.5rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 2rem;
+    font-size: 1.1rem;
+    margin: 0 1rem;
+}
+button:hover {
+    color: black;
+    padding: 0.8rem 1.5rem;
+    background-color: #e44d27;
+   
+}
+
+/* 
+======================
+    right Section
+======================
+ */
+
+ .headphone-div {
+    position: relative;
+}
+
+.discount {
+    position: absolute;
+    width: 24%;
+    top: 14.8rem;
+    left: 2.5rem;
+}
+
+.discount-content {
+    position: absolute;
+    top: 17rem;
+    left: 5rem;
+    color: white;
+}
+.discount-content h1{
+    font-size: 3rem;
+    margin: 0;
+    font-weight: 100;
+}
+
+.headphone{
+    width: 70%;
+    z-index: -1;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    left: 5rem;
+    background-color: red;
+}
+
+/* 3 dots */
+.dots {
+    display: flex;
+    position: absolute;
+    top: 30rem;
+    left: 13rem;
+}
+.dot {
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    margin: 1rem;
+}
+
+.yellow-dot {
+    background: yellow;
+}
+.tomato-dot {
+    background: tomato;
+}
+.black-dot {
+    background: black;
+}
+
+.right-section .action-btn {
+    top: 34rem;
+    position: absolute;
+    left: 13rem;
+    
+}
