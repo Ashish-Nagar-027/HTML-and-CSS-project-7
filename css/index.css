@@ -130,7 +130,7 @@ button:hover {
 
 .discount {
     position: absolute;
-    width: 24%;
+    width: 9rem;
     top: 14.8rem;
     left: 2.5rem;
 }
@@ -148,7 +148,7 @@ button:hover {
 }
 
 .headphone{
-    width: 70%;
+    width: 30rem;
     z-index: -1;
     position: absolute;
     display: flex;
